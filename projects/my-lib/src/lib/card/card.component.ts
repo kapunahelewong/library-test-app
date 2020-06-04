@@ -9,7 +9,10 @@ import { LibHeaderToken } from '../header/lib-header-token';
 })
 export class CardComponent implements OnInit {
 
+  // This one is not tree shakable.
   // @ContentChild(HeaderComponent) header: HeaderComponent|null = null;
+
+  // This one is tree shakable.
   @ContentChild(LibHeaderToken) header: LibHeaderToken|null = null;
 
   constructor() { }
