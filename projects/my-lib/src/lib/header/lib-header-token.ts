@@ -7,5 +7,6 @@ import { Injectable } from "@angular/core";
 })
 
 export abstract class LibHeaderToken {
+  static snack: any = 'peanut';
   abstract sayHi(): void;
 }

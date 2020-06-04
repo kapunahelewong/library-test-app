@@ -19,6 +19,6 @@ export class HeaderComponent extends LibHeaderToken {
   }
 
   sayHi() {
-    console.log('hi');
+    console.log('LibHeaderToken.snack: ', LibHeaderToken.snack);
   }
 }
